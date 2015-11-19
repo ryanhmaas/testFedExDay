@@ -18,21 +18,21 @@ a.nav-expander {
   font-size: 15px;
   font-weight: 400;
   height: 50px;
-  margin-right: 0;
+  margin-left: 0;
   padding: 1em 1.6em 2em;
   position: absolute;
-  right: 0;
+  left: 0;
   text-decoration: none;
   text-transform: uppercase;
   top: 0;
-  transition: right 0.3s ease-in-out 0s;
+  transition: left 0.3s ease-in-out 0s;
   width: 130px;
   z-index: 12;
  
-  transition: right 0.3s ease-in-out 0s;
-  -webkit-transition: right 0.3s ease-in-out 0s;
-  -moz-transition: right 0.3s ease-in-out 0s;
-  -o-transition: right 0.3s ease-in-out 0s;
+  transition: left 0.3s ease-in-out 0s;
+  -webkit-transition: left 0.3s ease-in-out 0s;
+  -moz-transition: left 0.3s ease-in-out 0s;
+  -o-transition: left 0.3s ease-in-out 0s;
  
 }
  
@@ -45,7 +45,7 @@ a.nav-expander.fixed {
 }
  
 .nav-expanded a.nav-expander.fixed {
-    right: 20em;
+    left: 20em;
 }
 
 CSS
@@ -56,16 +56,16 @@ nav {
   height: 100%;
   overflow: auto;
   position: fixed;
-  right: -20em;
+  left: -20em;
   font-size: 15px;
   top: 0;
   width: 20em;
   z-index: 2000;
 
-  transition: right 0.3s ease-in-out 0s;
-  -webkit-transition: right 0.3s ease-in-out 0s;
-  -moz-transition: right 0.3s ease-in-out 0s;
-  -o-transition: right 0.3s ease-in-out 0s;
+  transition: left 0.3s ease-in-out 0s;
+  -webkit-transition: left 0.3s ease-in-out 0s;
+  -moz-transition: left 0.3s ease-in-out 0s;
+  -o-transition: left 0.3s ease-in-out 0s;
 
 }
 .nav-expanded nav {
@@ -74,17 +74,17 @@ nav {
 
 body.nav-expanded {
   margin-left: 0em;
-  transition: right 0.4s ease-in-out 0s;
-  -webkit-transition: right 0.4s ease-in-out 0s;
-  -moz-transition: right 0.4s ease-in-out 0s;
-  -o-transition: right 0.4s ease-in-out 0s;
+  transition: left 0.4s ease-in-out 0s;
+  -webkit-transition: left 0.4s ease-in-out 0s;
+  -moz-transition: left 0.4s ease-in-out 0s;
+  -o-transition: left 0.4s ease-in-out 0s;
 }
 
 #nav-close {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   font-size: 24px;
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 nav {
@@ -93,35 +93,35 @@ nav {
   height: 100%;
   overflow: auto;
   position: fixed;
-  right: -20em;
+  left: -20em;
   font-size: 15px;
   top: 0;
   width: 20em;
   z-index: 2000;
  
-  transition: right 0.3s ease-in-out 0s;
-  -webkit-transition: right 0.3s ease-in-out 0s;
-  -moz-transition: right 0.3s ease-in-out 0s;
-  -o-transition: right 0.3s ease-in-out 0s;
+  transition: left 0.3s ease-in-out 0s;
+  -webkit-transition: left 0.3s ease-in-out 0s;
+  -moz-transition: left 0.3s ease-in-out 0s;
+  -o-transition: left 0.3s ease-in-out 0s;
  
 }
 .nav-expanded nav {
-  right: 0;
+  left: 0;
 }
  
 body.nav-expanded {
   margin-left: 0em;
-  transition: right 0.4s ease-in-out 0s;
-  -webkit-transition: right 0.4s ease-in-out 0s;
-  -moz-transition: right 0.4s ease-in-out 0s;
-  -o-transition: right 0.4s ease-in-out 0s;
+  transition: left 0.4s ease-in-out 0s;
+  -webkit-transition: left 0.4s ease-in-out 0s;
+  -moz-transition: left 0.4s ease-in-out 0s;
+  -o-transition: left 0.4s ease-in-out 0s;
 }
  
 #nav-close {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
   font-size: 24px;
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .main-menu {
@@ -188,7 +188,7 @@ body.nav-expanded {
 }
  
 .main-menu li > a > span.icon {
-  float: right;
+  float: left;
   margin: 0.1em 1.7em -0.1em 0;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -199,7 +199,7 @@ body.nav-expanded {
 }
  
 .main-menu li > a:hover > span.icon {
-  float: right;
+  float: left;
   margin: 0.1em 0.8em -0.1em 0;
   opacity: 1;
 }
