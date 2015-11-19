@@ -1,3 +1,34 @@
 /*
 Custom Styling
 */
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 100px; /* .push must be the same height as .footer */
+}
+
+.footer{
+  background-color: #90CAF9;
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.divider-right{
+  border-right:2px solid #FFF;
+  height:40px;
+  text-align:center;
+}
+
+.last{
+  text-align: center;
+}
