@@ -1,5 +1,5 @@
 // app/routes.js
-
+var path = require('path')
 // grab the nerd model we just created
 var Nerd = require('./models/nerd');
 
@@ -28,8 +28,12 @@ var Nerd = require('./models/nerd');
 
         // frontend routes =========================================================
         // route to handle all angular requests
-        app.get('*', function(req, res) {
+        app.get('/', function(req, res) {
             res.sendfile('./public/views/index.html'); // load our public/index.html file
+        });
+
+        app.get('/output.json', function(req, res){
+          res.sendFile(path.resolve('./public/js/controllers/output.json'));
         });
 
     };

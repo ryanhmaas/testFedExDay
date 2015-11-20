@@ -1,0 +1,114 @@
+[
+    {
+        "state": "          Final        ",
+        "status": "",
+        "homeTeam": "TEN",
+        "homeScore": "13",
+        "visitingTeam": "JAX",
+        "visitingScore": "19"
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "IND",
+        "homeScore": "",
+        "visitingTeam": "ATL",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "DEN",
+        "homeScore": "",
+        "visitingTeam": "CHI",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "OAK",
+        "homeScore": "",
+        "visitingTeam": "DET",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "DAL",
+        "homeScore": "",
+        "visitingTeam": "MIA",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "TB",
+        "homeScore": "",
+        "visitingTeam": "PHI",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "WAS",
+        "homeScore": "",
+        "visitingTeam": "CAR",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "STL",
+        "homeScore": "",
+        "visitingTeam": "BAL",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "NYJ",
+        "homeScore": "",
+        "visitingTeam": "HOU",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 4:05 PM        ",
+        "status": "",
+        "homeTeam": "KC",
+        "homeScore": "",
+        "visitingTeam": "SD",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 4:25 PM        ",
+        "status": "",
+        "homeTeam": "GB",
+        "homeScore": "",
+        "visitingTeam": "MIN",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 4:25 PM        ",
+        "status": "",
+        "homeTeam": "SF",
+        "homeScore": "",
+        "visitingTeam": "SEA",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 8:30 PM        ",
+        "status": "",
+        "homeTeam": "CIN",
+        "homeScore": "",
+        "visitingTeam": "ARI",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Mon 8:30 PM        ",
+        "status": "",
+        "homeTeam": "BUF",
+        "homeScore": "",
+        "visitingTeam": "NE",
+        "visitingScore": ""
+    }
+]

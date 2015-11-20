@@ -41,9 +41,7 @@ module.exports = {
              .children() //select all the children
              .remove()   //remove all the children
              .end()  //again go back to selected element
-         .text();
-
-
+             .text();
 
             visitingTeam = visitingTeam.replace(/(\r\n|\n|\r)/gm,"");
             homeTeam = homeTeam.replace(/(\r\n|\n|\r)/gm,"");
@@ -60,7 +58,7 @@ module.exports = {
             }
             jsonArr.push(gameData);
           });
-          fs.writeFile('output.json', JSON.stringify(jsonArr, null, 4), function(err){
+          fs.writeFile('/public/js/controllers/output.json', JSON.stringify(jsonArr, null, 4), function(err){
             console.log('File successfully written!!!!! - Check your project directory for the output.json file');
           });
         }
