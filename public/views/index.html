@@ -1,5 +1,4 @@
-<!-- public/index.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="UTF-8">
@@ -7,19 +6,29 @@
       <title>Starter Node and Angular</title>
       <!-- CSS -->
       <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+<<<<<<< HEAD
       <link rel="stylesheet" href="css/style.css">
       <!-- custom styles -->
+=======
+      <link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <!-- Styles -->
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+
+>>>>>>> origin/master
       <!-- JS -->
       <script src="libs/angular/angular.min.js"></script>
       <script src="libs/angular-route/angular-route.min.js"></script>
       <!-- ANGULAR CUSTOM -->
       <script src="js/controllers/MainCtrl.js"></script>
-      <script src="js/controllers/NerdCtrl.js"></script>
-      <script src="js/services/NerdService.js"></script>
       <script src="js/appRoutes.js"></script>
       <script src="js/app.js"></script>
       <link rel="stylesheet" href="css/style.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<<<<<<< HEAD
    </head>
    <body ng-app="sampleApp" ng-controller="MainCtrl">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -53,6 +62,41 @@
          <a id="nav-expander" class="nav-expander fixed">
          MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
          </a>
+=======
+  </head>
+  <body ng-app="sampleApp" ng-controller="MainController">
+    <nav>
+        <ul class="list-unstyled main-menu">
+          <!--Include your navigation here-->
+          <li class="text-right"><a href="#" id="nav-close">X</a></li>
+          <li><a href="#">Menu One <span class="icon"></span></a></li>
+          <li><a href="#">Menu Two <span class="icon"></span></a></li>
+          <li><a href="#">Menu Three <span class="icon"></span></a></li>
+          <li><a href="#">Dropdown</a>
+            <ul class="list-unstyled">
+                <li class="sub-nav"><a href="#">Sub Menu One <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Two <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Three <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Four <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Five <span class="icon"></span></a></li>
+            </ul>
+          </li>
+          <li><a href="#">Menu Four <span class="icon"></span></a></li>
+          <li><a href="#">Menu Five <span class="icon"></span></a></li>
+        </ul>
+    </nav>
+      <!--Include your brand here-->
+      <div class="navbar-header pull-right">
+        <a id="nav-expander" class="nav-expander fixed">
+          MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
+        </a>
+      </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 id="jumboheader">Real Fake NFL Stats</h1>
+>>>>>>> origin/master
       </div>
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -62,6 +106,7 @@
       </div>
    </body>
 
+<<<<<<< HEAD
 </html>
    <!-- ANGULAR DYNAMIC CONTENT -->
    <footer class="footer">
@@ -119,3 +164,165 @@
      });
      
 </script>
+=======
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery.navgoco.js"></script>
+
+    <script>
+    $(document).ready(function(){
+
+       //Navigation Menu Slider
+        $('#nav-expander').on('click',function(e){
+          e.preventDefault();
+          $('body').toggleClass('nav-expanded');
+        });
+        $('#nav-close').on('click',function(e){
+          e.preventDefault();
+          $('body').removeClass('nav-expanded');
+        });
+
+
+        // Initialize navgoco with default options
+        $(".main-menu").navgoco({
+            caret: '<span class="caret"></span>',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 300,
+                easing: 'swing'
+            }
+        });
+
+
+      });
+      </script>
+
+    </body>
+
+        <!-- ANGULAR DYNAMIC CONTENT -->
+    <footer class="footer">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <a href="" id="leftmost">
+              <img src="img/ATL.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/AZ.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/BAL.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/BUF.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/CAR.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/CHI.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/CIN.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/CLE.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/DAL.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/DEN.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/DET.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/GB.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/HOU.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/IND.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/JAX.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/KC.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/MIA.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/MIN.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/NE.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/NYG.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/NYJ.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/OAK.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/PHI.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/PIT.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/SD.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/SEA.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/SF.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/STL.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/TB.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/TEN.png" class="banner-pic">
+            </a>
+            <a href="">
+              <img src="img/WAS.png" class="banner-pic">
+            </a>
+          </div>
+          <div class="row-fluid">
+             <div class="col-md-4 divider-right">.col-md-4</div>
+             <div class="col-md-4 divider-right">.col-md-4</div>
+             <div class="col-md-4 last">.col-md-4</div>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>
+>>>>>>> origin/master

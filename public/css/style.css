@@ -25,22 +25,22 @@ a.nav-expander {
   transition: left 0.3s ease-in-out 0s;
   width: 130px;
   z-index: 12;
- 
+
   transition: left 0.3s ease-in-out 0s;
   -webkit-transition: left 0.3s ease-in-out 0s;
   -moz-transition: left 0.3s ease-in-out 0s;
   -o-transition: left 0.3s ease-in-out 0s;
- 
+
 }
- 
+
 a.nav-expander:hover {
   cursor: pointer;
 }
- 
+
 a.nav-expander.fixed {
   position: fixed;
 }
- 
+
 .nav-expanded a.nav-expander.fixed {
     left: 20em;
 }
@@ -95,17 +95,17 @@ nav {
   top: 0;
   width: 20em;
   z-index: 2000;
- 
+
   transition: left 0.3s ease-in-out 0s;
   -webkit-transition: left 0.3s ease-in-out 0s;
   -moz-transition: left 0.3s ease-in-out 0s;
   -o-transition: left 0.3s ease-in-out 0s;
- 
+
 }
 .nav-expanded nav {
   left: 0;
 }
- 
+
 body.nav-expanded {
   margin-left: 0em;
   transition: left 0.4s ease-in-out 0s;
@@ -113,7 +113,7 @@ body.nav-expanded {
   -moz-transition: left 0.4s ease-in-out 0s;
   -o-transition: left 0.4s ease-in-out 0s;
 }
- 
+
 #nav-close {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -124,29 +124,29 @@ body.nav-expanded {
 .main-menu {
   padding-top: 12px;
 }
- 
+
 .main-menu li {
   border-bottom: 1px solid #323949;
   margin-left: 20px;
   font-size: 18px;
   padding: 12px;
 }
- 
+
 .main-menu li a {
   color: #6F7D8C;
   text-decoration: none;
 }
- 
+
 .main-menu li a:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
- 
+
 .main-menu li .sub-nav {
   border-bottom: 0px;
   padding: 4px;
 }
- 
+
 .main-menu a .caret {
 	width: 0;
 	height: 0;
@@ -158,22 +158,22 @@ body.nav-expanded {
 	content: "";
     margin-top: 8px;
 }
- 
+
 .main-menu a:hover .caret {
 	border-top-color: #4f5963;
 }
- 
+
 .main-menu li.open > a > .caret {
 	border-top: none;
 	border-bottom: 4px solid #4f5963;
 	border-right: 4px solid transparent;
 	border-left: 4px solid transparent;
 }
- 
+
 .main-menu li.open > a:hover > .caret {
 	border-bottom-color: #4f5963;
 }
- 
+
 .icon:before {
   font-family: 'FontAwesome';
   font-style: normal;
@@ -183,12 +183,16 @@ body.nav-expanded {
   text-transform: none;
   content: '\f105';
 }
+<<<<<<< HEAD
  
  #jumboheader {
  	color:#90CAF9;
  	font-weight:bold;
  	font-family: 'Open Sans', sans-serif;
  }
+=======
+
+>>>>>>> origin/master
 .main-menu li > a > span.icon {
   float: left;
   margin: 0.1em 1.7em -0.1em 0;
@@ -197,17 +201,9 @@ body.nav-expanded {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
- 
+
 }
-.jumbotron {
-    position: relative;
-    background: #000 url("http://i.imgur.com/llQBddl.png") center center;
- 	width: 100%;
- 	height: 400px;
-    background-size: cover;
-    overflow: hidden;
-}
- 
+
 .main-menu li > a:hover > span.icon {
   float: left;
   margin: 0.1em 0.8em -0.1em 0;
@@ -244,4 +240,21 @@ body.nav-expanded {
 .last{
   text-align: center;
 }
->>>>>>> origin/master
+
+.banner-pic{
+  height:30px;
+  width:30px;
+}
+
+.footer .container-fluid .row-fluid a{
+  padding:15px 15px 1px 0px;
+}
+
+.banner-pic{
+  width: 32px;
+  height:32px;
+}
+
+#leftmost{
+  padding-left:150px;
+}
