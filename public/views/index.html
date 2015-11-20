@@ -59,8 +59,8 @@
                   <li class="sub-nav"><a href="#">New Orleans Saints <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Miami Dolphins <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Washington Redskins <span class="icon"></span></a></li>
-                  <li class="sub-nav"><a href="#"> Detroit Lions<span class="icon"></span></a></li>
-                  <li class="sub-nav"><a href="#">Green Bay Packers <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="#">Detroit Lions<span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="img/tablet.gif">Green Bay Packers <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Minnesota Vikings <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Cincinnati Bengals<span class="icon"></span></a></li>
                    <li class="sub-nav"><a href="#">Cleveland Browns <span class="icon"></span></a></li>
@@ -92,7 +92,7 @@
       <div class="row">
        <h2 id="scoreheader">NFL Scores</h2>
                <div id="bodycontent" class="col-lg-4" ng-repeat="game in games track by $index">
-               <div class="panel-heading"id="statebox"><p>{{game.state}}</p></div><div class="panel-body" id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div class="panel-footer" id="scorebox"><p>{{game.homeScore}} | {{game.visitingScore}}</p></div>
+               <div class="panel-heading"id="statebox"><p>{{game.state}}</p></div><div class="panel-body" id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div class="panel-footer" id="scorebox"><p>{{game.visitingScore}} | {{game.homeScore}}</p></div>
             </div>
         </div>
       </div>
