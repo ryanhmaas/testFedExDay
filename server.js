@@ -11,7 +11,7 @@ var cheerio        = require('cheerio');
 var fs             = require('fs');
 var scraper        = require('./app/tasks/nfl_scraper')
 //run every fifteen minutes
-var myJob = new CronJob('0 */1 * * * *', function(){
+var myJob = new CronJob('0 */7 * * * *', function(){
   scraper.runScraper();
   //console.log("HI! I RAN!");
 });
