@@ -58,11 +58,23 @@
         </div>
       </div>
       <div ng-controller='MainCtrl' id="bodycontent">
-          <ul>
-              <li ng-repeat="game in games track by $index">
-                  <p>State: {{game.state}}</p> - <p>Home Team: {{game.homeTeam}}</p> - <p>Home Score{{game.homeScore}}</p> - <p>Away team: {{game.awayTeam}}</p> -<p>Away score{{game.awayScore}}</p>
-            </li>
-        </ul>
+      <table id="scoretable">     
+      <tr>
+         
+
+            </tr>
+            </table>
+
+      </div>
+
+      <div class="container" ng-controller='MainCtrl' id="bodycontent">
+      <!-- Example row of columns -->
+      <div class="row">
+       <h2>Heading</h2>
+               <div class="col-lg-4" ng-repeat="game in games track by $index">
+                  <p>State: {{game.state}}</p> - <p>Home Team: {{game.homeTeam}}</p> - <p>Home Score{{game.homeScore}}</p> - <p>Away team: {{game.awayTeam}}</p> -<p>Away score{{game.awayScore}}</p> 
+            </div>
+        </div>
       </div>
    <!-- ANGULAR DYNAMIC CONTENT -->
     <div class="push"></div>

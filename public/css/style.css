@@ -112,6 +112,8 @@ nav {
 .nav-expanded nav {
     left: 0;
 }
+#bodycontent {
+}
 body.nav-expanded {
     margin-left: 0em;
     transition: left 0.4s ease-in-out 0s;
