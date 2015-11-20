@@ -34,13 +34,13 @@
             <li><a href="#">NFL Teams</a>
               <ul class="list-unstyled">
                   <li class="sub-nav"><a href="#">Atlanta Falcons <span class="icon"></span></a></li>
-                  <li class="sub-nav"><a href="#">Jacksonville Jaguars <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="img/jaguars_guy.gif">Jacksonville Jaguars <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Flaming Thumbtacks <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Luck's Neard <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">DA BEARS <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Denver Broncos <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">New York Giants <span class="icon"></span></a></li>
-                  <li class="sub-nav"><a href="#">New York Jets <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="img/butt_fumble.gif">New York Jets <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Buffalo Bills <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">New England Practice Filmers <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Baltimore Ravens <span class="icon"></span></a></li>
@@ -49,7 +49,7 @@
                   <li class="sub-nav"><a href="#">Los Angeles Chargers <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Oakland Raiders<span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">San Fansisco 49ers <span class="icon"></span></a></li>
-                  <li class="sub-nav"><a href="#">Seattle Seahawks <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="img/sherman.gif">Seattle Seahawks <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Arizona Cardinals <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Kansas City Chiefs <span class="icon"></span></a></li>
                   <li class="sub-nav"><a href="#">Houston Texans <span class="icon"></span></a></li>
@@ -90,7 +90,7 @@
       <div id="bodycontent">
       <!-- Example row of columns -->
       <div class="row">
-       <h2 id="scoreheader">NFL Scores</h2>
+       <img id="scoreheader" src="img/nfl_logo.png" style="margin: 0 auto;display:block;">
                <div id="bodycontent" class="col-lg-4" ng-repeat="game in games track by $index">
                <div class="panel-heading"id="statebox"><p>{{game.state}}</p></div><div class="panel-body" id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div class="panel-footer" id="scorebox"><p>{{game.visitingScore}} | {{game.homeScore}}</p></div>
             </div>
