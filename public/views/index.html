@@ -67,7 +67,7 @@
       <div class="row">
        <h2 id="scoreheader">NFL Scores</h2>
                <div id="bodycontent" class="col-lg-4" ng-repeat="game in games track by $index">
-                  <div id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div id="statebox"><p>{{game.state}}</p></div><div id="scorebox"><p>{{game.homeScore}} | {{game.visitingScore}}</p></div>
+               <div class="panel-heading"id="statebox"><p>{{game.state}}</p></div><div class="panel-body" id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div class="panel-footer" id="scorebox"><p>{{game.homeScore}} | {{game.visitingScore}}</p></div>
             </div>
         </div>
       </div>

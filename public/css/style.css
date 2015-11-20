@@ -215,6 +215,8 @@ a.nav-expander.fixed {
 }
 #bodycontent {
 	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight:bold;
 }
 .banner {
     height: 250px;
