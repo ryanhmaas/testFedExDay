@@ -117,8 +117,8 @@
             <a href="http://www.dallascowboys.com/" target="_blank">
               <img src="img/DAL.png" class="banner-pic">
             </a>
-            <a href="http://www.denverbroncos.com/" target="_blank">
-              <img src="img/DEN.png" class="banner-pic">
+            <a href="http://www.denverbroncos.com/" target="_blank" >
+              <img src="img/DEN.png" class="banner-pic" id="DEN" style="cursor:url('img/manning.png');">
             </a>
             <a href="http://www.detroitlions.com/" target="_blank">
               <img src="img/DET.png" class="banner-pic">
@@ -190,13 +190,13 @@
         <div class="row-fluid">
               <div class="col-md-4 divider-right">
                 <div class="row">
-                    <a href="#">Home</a>
+                    <a href="#" style="text-decoration:none;color:#FFF;">Home</a>
                 </div>
                 <div class="row">
-                    <a href="#">Contact Us</a>
+                    <a href="#" style="text-decoration:none;color:#FFF;">Contact Us</a>
                 </div>
                 <div class="row">
-                    <a href="#">About Us</a>
+                    <a href="#" style="text-decoration:none;color:#FFF;">About Us</a>
                 </div>
               </div>
               <div class="col-md-4 divider-right">
@@ -224,12 +224,12 @@
 <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="js/jquery.navgoco.js"></script>
 <script>
-            // Simple elevator usage.
-            var elementButton = document.querySelector('.elevator');
-            var elevator = new Elevator({
-                element: elementButton,
-                duration: 6000,
-            });
+    // Simple elevator usage.
+    var elementButton = document.querySelector('.elevator');
+    var elevator = new Elevator({
+        element: elementButton,
+        duration: 6000,
+    });
 
 
    $(document).ready(function(){
@@ -243,27 +243,9 @@
          e.preventDefault();
          $('body').removeClass('nav-expanded');
        });
-
-
        // Initialize navgoco with default options
-       $(".main-menu").navgoco({
-           caret: '<span class="caret"></span>',
-           accordion: false,
-           openClass: 'open',
-           save: true,
-           cookie: {
-               name: 'navgoco',
-               expires: false,
-               path: '/'
-           },
-           slide: {
-               duration: 300,
-               easing: 'swing'
-           }
-       });
-
-
      });
+
 
 </script>
 
