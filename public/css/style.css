@@ -7,9 +7,6 @@ Custom Styling
 * {
     margin: 0;
 }
-html, body {
-    height: 100%;
-}
 
 a.nav-expander {
   background: none repeat scroll 0 0 #000000;
@@ -190,6 +187,7 @@ body.nav-expanded {
  #jumboheader {
  	color:#90CAF9;
  	font-weight:bold;
+ 	font-family: 'Open Sans', sans-serif;
  }
 .main-menu li > a > span.icon {
   float: left;
@@ -227,6 +225,11 @@ body.nav-expanded {
 }
 
 .footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:100px;
+   width:100%;
   background-color: #90CAF9;
   color:#FFF;
   font-family: 'Open Sans', sans-serif;
