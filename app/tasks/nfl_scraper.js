@@ -16,25 +16,35 @@ module.exports = {
             //quarter and time
             var status = $(element).find('.period').text();
 
-            //scores
-            var homeScore     = $(element).find('.team .score em').first().text();
-            var visitingScore = $(element).find('.team .score em').last().text();
+            var homeScore, visitingScore;
+             if(status==="LIVE"){
+                 //scores
+               homeScore     = $(element).find('.team .score em').first().text();
+               visitingScore = $(element).find('.team .score em').last().text();
+             }
+             else{
+               homeScore     = $(element).find('.team .score').first().text();
+               visitingScore = $(element).find('.team .score').last().text();
+             }
 
-            //teams
-           var homeTeam = $(element).find('.team').first()
-            .clone()    //clone the element
-            .children() //select all the children
-            .remove()   //remove all the children
-            .end()  //again go back to selected element
-            .text();
 
 
-            var visitingTeam = $(element).find('.team').last()
-            .clone()    //clone the element
-            .children() //select all the children
-            .remove()   //remove all the children
-            .end()  //again go back to selected element
-            .text();
+             //teams
+            var homeTeam = $(element).find('.team').first()
+             .clone()    //clone the element
+             .children() //select all the children
+             .remove()   //remove all the children
+             .end()  //again go back to selected element
+             .text();
+
+
+             var visitingTeam = $(element).find('.team').last()
+             .clone()    //clone the element
+             .children() //select all the children
+             .remove()   //remove all the children
+             .end()  //again go back to selected element
+         .text();
+
 
 
             visitingTeam = visitingTeam.replace(/(\r\n|\n|\r)/gm,"");
