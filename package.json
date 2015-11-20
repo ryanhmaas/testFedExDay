@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
+    "cron": "^1.0.9",
     "express": "^4.13.3",
     "method-override": "^2.3.5",
     "mongoose": "^4.2.6"
