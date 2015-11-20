@@ -19,49 +19,52 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
   <body ng-app="sampleApp">
-      <!-- Styles -->
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+    <div class="Wrapper">
+      <nav>
+          <ul class="list-unstyled main-menu">
 
-
-    <nav>
-        <ul class="list-unstyled main-menu">
-
-          <!--Include your navigation here-->
-          <li class="text-right"><a href="#" id="nav-close">X</a></li>
-          <li><a href="#">Menu One <span class="icon"></span></a></li>
-          <li><a href="#">Menu Two <span class="icon"></span></a></li>
-          <li><a href="#">Menu Three <span class="icon"></span></a></li>
-          <li><a href="#">Dropdown</a>
-            <ul class="list-unstyled">
-                <li class="sub-nav"><a href="#">Sub Menu One <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Two <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Three <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Four <span class="icon"></span></a></li>
-                <li class="sub-nav"><a href="#">Sub Menu Five <span class="icon"></span></a></li>
-            </ul>
-          </li>
-          <li><a href="#">Menu Four <span class="icon"></span></a></li>
-          <li><a href="#">Menu Five <span class="icon"></span></a></li>
-        </ul>
-      </nav>
-        <!--Include your brand here-->
-        <div class="navbar-header pull-right">
-          <a id="nav-expander" class="nav-expander fixed">
-            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
-          </a>
-        </div>
+            <!--Include your navigation here-->
+            <li class="text-right"><a href="#" id="nav-close">X</a></li>
+            <li><a href="#">Menu One <span class="icon"></span></a></li>
+            <li><a href="#">Menu Two <span class="icon"></span></a></li>
+            <li><a href="#">Menu Three <span class="icon"></span></a></li>
+            <li><a href="#">Dropdown</a>
+              <ul class="list-unstyled">
+                  <li class="sub-nav"><a href="#">Sub Menu One <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="#">Sub Menu Two <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="#">Sub Menu Three <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="#">Sub Menu Four <span class="icon"></span></a></li>
+                  <li class="sub-nav"><a href="#">Sub Menu Five <span class="icon"></span></a></li>
+              </ul>
+            </li>
+            <li><a href="#">Menu Four <span class="icon"></span></a></li>
+            <li><a href="#">Menu Five <span class="icon"></span></a></li>
+          </ul>
+        </nav>
+          <!--Include your brand here-->
+          <div class="navbar-header pull-right">
+            <a id="nav-expander" class="nav-expander fixed">
+              MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
+            </a>
+          </div>
 
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 id="jumboheader">Real Fake NFL Stats</h1>
-           </div>
-           </html>
-
+      <div class="jumbotron banner">
+        <div class="container">
+          <h1 id="jumboheader">Real Fake NFL Stats</h1>
+        </div>
+      </div>
+      <div ng-controller='MainCtrl' id="bodycontent">
+          <ul>
+              <li ng-repeat="state in output">
+                  {{state.state}} - <em>{{state.homeTeam}}</em> - {{state.homeScore}} - <em>{{state.awayTeam}}</em> - {{state.awayScore}}
+            </li>
+        </ul>
+      </div>
    <!-- ANGULAR DYNAMIC CONTENT -->
+    <div class="push"></div>
+  </div>
    <footer class="footer">
       <div class="container-fluid">
         <div class="row-fluid">
@@ -162,21 +165,36 @@
               <img src="img/WAS.png" class="banner-pic">
             </a>
           </div>
-      </div>
-      <div class="row-fluid">
-            <div class="col-md-4 divider-right">.col-md-4</div>
-            <div class="col-md-4 divider-right">.col-md-4</div>
-            <div class="col-md-4 last">.col-md-4</div>
-         </div>
-      </div>
-        </footer>
-  <div ng-controller='MainCtrl' id="bodycontent">
-        <ul>
-    <li ng-repeat="state in output">
-      {{state.state}} - <em>{{state.homeTeam}}</em> - {{state.homeScore}} - <em>{{state.awayTeam}}</em> - {{state.awayScore}}
-    </li>
-  </ul>
+        <div class="row-fluid">
+              <div class="col-md-4 divider-right">
+                <div class="row">
+                    <a href="#">Home</a>
+                </div>
+                <div class="row">
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="row">
+                    <a href="#">About Us</a>
+                </div>
+              </div>
+              <div class="col-md-4 divider-right">
+                The NFL is a trademark blah blah blah Roger Goodell sux
+              </div>
+              <div class="col-md-4 last">
+                <div class="row">
+                  <p>Mr. Menos and Dusty LLC</p>
+                </div>
+                <div class="row">
+                  <p>555 N Pleasantburg Dr</p>
+                </div>
+                <div class="row">
+                  <p>Mr. Menos and Dusty LLC</p>
+                </div>
+              </div>
         </div>
+    </div>
+  </footer>
+</body>
 <!-- Javascript
    ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -218,3 +236,5 @@
      });
 
 </script>
+
+</html>

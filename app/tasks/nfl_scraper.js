@@ -27,8 +27,6 @@ module.exports = {
                visitingScore = $(element).find('.team .score').last().text();
              }
 
-
-
              //teams
             var homeTeam = $(element).find('.team').first()
              .clone()    //clone the element

@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
 .body{
 	background-color: 90CAF9;
 	border-style:solid;
@@ -7,37 +15,29 @@
 .main-menu {
   padding-top: 12px;
 }
- 
+
 .main-menu li {
   border-bottom: 1px solid #323949;
   margin-left: 20px;
   font-size: 18px;
   padding: 12px;
 }
- 
+
 .main-menu li a {
   color: #6F7D8C;
   text-decoration: none;
 }
- 
+
 .main-menu li a:hover {
   color: #FFFFFF;
   text-decoration: none;
 }
- 
+
 .main-menu li .sub-nav {
   border-bottom: 0px;
   padding: 4px;
 }
-#bodycontent {
-	border-style:solid;
-	border-width:40px;
-	border-color:#90CAF9;
-	width:100%;
-	height:100%;
-	padding: 5px;
-}
- 
+
 .main-menu a .caret {
 	width: 0;
 	height: 0;
@@ -64,22 +64,22 @@
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
- 
+
 .main-menu a:hover .caret {
 	border-top-color: #4f5963;
 }
- 
+
 .main-menu li.open > a > .caret {
 	border-top: none;
 	border-bottom: 4px solid #4f5963;
 	border-left: 4px solid transparent;
 	border-left: 4px solid transparent;
 }
- 
+
 .main-menu li.open > a:hover > .caret {
 	border-bottom-color: #4f5963;
 }
- 
+
 .icon:before {
   font-family: 'FontAwesome';
   font-style: normal;
@@ -89,7 +89,7 @@
   text-transform: none;
   content: '\f105';
 }
- 
+
 .main-menu li > a > span.icon {
   float: left;
   margin: 0.1em 1.7em -0.1em 0;
@@ -98,9 +98,9 @@
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
- 
+
 }
- 
+
 .main-menu li > a:hover > span.icon {
   float: left;
   margin: 0.1em 0.8em -0.1em 0;
@@ -117,17 +117,17 @@ nav {
   top: 0;
   width: 20em;
   z-index: 2000;
- 
+
   transition: left 0.3s ease-in-out 0s;
   -webkit-transition: left 0.3s ease-in-out 0s;
   -moz-transition: left 0.3s ease-in-out 0s;
   -o-transition: left 0.3s ease-in-out 0s;
- 
+
 }
 .nav-expanded nav {
   left: 0;
 }
- 
+
 body.nav-expanded {
   margin-left: 0em;
   transition: left 0.4s ease-in-out 0s;
@@ -135,7 +135,7 @@ body.nav-expanded {
   -moz-transition: left 0.4s ease-in-out 0s;
   -o-transition: left 0.4s ease-in-out 0s;
 }
- 
+
 #nav-close {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 300;
@@ -159,22 +159,22 @@ a.nav-expander {
   transition: left 0.3s ease-in-out 0s;
   width: 130px;
   z-index: 12;
- 
+
   transition: left 0.3s ease-in-out 0s;
   -webkit-transition: left 0.3s ease-in-out 0s;
   -moz-transition: left 0.3s ease-in-out 0s;
   -o-transition: left 0.3s ease-in-out 0s;
- 
+
 }
- 
+
 a.nav-expander:hover {
   cursor: pointer;
 }
- 
+
 a.nav-expander.fixed {
   position: fixed;
 }
- 
+
 .nav-expanded a.nav-expander.fixed {
     left: 20em;
 }
@@ -183,16 +183,13 @@ a.nav-expander.fixed {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
     height: 100px; /* .push must be the same height as .footer */
 }
 
 .footer{
-   position:fixed;
-   left:0px;
-   bottom:0px;
    height:100px;
    width:100%;
   background-color: #90CAF9;
@@ -210,11 +207,6 @@ a.nav-expander.fixed {
   text-align: center;
 }
 
-.banner-pic{
-  height:30px;
-  width:30px;
-}
-
 .footer .container-fluid .row-fluid a{
   padding:15px 15px 1px 0px;
 }
@@ -226,4 +218,8 @@ a.nav-expander.fixed {
 
 #leftmost{
   padding-left:150px;
+}
+
+.banner{
+	height:70px;
 }
