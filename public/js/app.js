@@ -4,7 +4,7 @@ angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl']);
 
 
 
-var scrapeData = angular.module('App', []);
+var scrapeData = angular.module('scrapeData', []);
 
 scrapeData.controller('TodoCtrl', function($scope, $http) {
   $http.get('output.json')

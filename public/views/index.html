@@ -170,7 +170,7 @@
          </div>
       </div>
         </footer>
-  <div ng-repeat="state in output" id="bodycontent">
+  <div ng-controller='TodoCtrl' id="bodycontent">
         <ul>
     <li ng-repeat="state in output">
       {{output.state}} - <em>{{output.hometeam}}</em> - {{output.homescore}} - <em>{{output.awayteam}}</em> - {{output.awayscore}}
