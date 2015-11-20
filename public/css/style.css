@@ -195,8 +195,8 @@ a.nav-expander.fixed {
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
 }
-.divider-left {
-    border-left: 2px solid #FFF;
+.divider-right {
+    border-right: 2px solid #FFF;
     height: 60px;
     text-align: center;
 }
