@@ -58,24 +58,19 @@
           <h1 id="jumboheader">Real Fake NFL Stats</h1>
         </div>
       </div>
-      <div ng-controller='MainCtrl' id="bodycontent">
-      <table id="scoretable">     
-      <tr>
-         
-
-            </tr>
-            </table>
-
+      <div ng-controller='MainCtrl'>
       </div>
 
-      <div class="container" ng-controller='MainCtrl' id="bodycontent">
+      <div class="container" ng-controller='MainCtrl'>
+      <div id="bodycontent">
       <!-- Example row of columns -->
       <div class="row">
-       <h2>NFL Scores</h2>
-               <div class="col-lg-4" ng-repeat="game in games track by $index">
-                  <p>State: {{game.state}}</p> - <p>Home Team: {{game.homeTeam}}</p> - <p>Home Score{{game.homeScore}}</p> - <p>Away team: {{game.awayTeam}}</p> -<p>Away score{{game.awayScore}}</p> 
+       <h2 id="scoreheader">NFL Scores</h2>
+               <div id="bodycontent" class="col-lg-4" ng-repeat="game in games track by $index">
+                  <div id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div id="statebox"><p>{{game.state}}</p></div><div id="scorebox"><p>{{game.homeScore}} | {{game.visitingScore}}</p></div>
             </div>
         </div>
+      </div>
       </div>
    <!-- ANGULAR DYNAMIC CONTENT -->
                <div class="do-the-thing">
