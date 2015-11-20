@@ -41,7 +41,7 @@
 }
 .jumbotron {
     position: relative;
-
+    overlay: 1px;
     background: #000 url("http://i.imgur.com/llQBddl.png?1") center center;
     width: 100%;
     height: 275px;
@@ -175,7 +175,6 @@ a.nav-expander.fixed {
 
 .footer{
    position:fixed;
-
    left:0px;
    bottom:0px;
    height:100px;
