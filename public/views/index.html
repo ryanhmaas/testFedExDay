@@ -57,8 +57,8 @@
       </div>
       <div ng-controller='MainCtrl' id="bodycontent">
           <ul>
-              <li ng-repeat="state in output">
-                  {{state.state}} - <em>{{state.homeTeam}}</em> - {{state.homeScore}} - <em>{{state.awayTeam}}</em> - {{state.awayScore}}
+              <li ng-repeat="game in games track by $index">
+                  <p>State: {{game.state}}</p> - <p>Home Team: {{game.homeTeam}}</p> - <p>Home Score{{game.homeScore}}</p> - <p>Away team: {{game.awayTeam}}</p> -<p>Away score{{game.awayScore}}</p>
             </li>
         </ul>
       </div>
