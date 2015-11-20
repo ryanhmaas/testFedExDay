@@ -53,117 +53,14 @@
           </a>
         </div>
 
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h1 id="jumboheader">Real Fake NFL Stats</h1>
            </div>
            </html>
-      <!-- ANGULAR DYNAMIC CONTENT -->
-    <footer class="footer">
-        <div class="container-fluid">
-          <div class="row-fluid">
-            <a href="" id="leftmost">
-              <img src="img/ATL.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/AZ.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/BAL.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/BUF.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/CAR.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/CHI.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/CIN.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/CLE.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/DAL.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/DEN.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/DET.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/GB.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/HOU.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/IND.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/JAX.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/KC.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/MIA.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/MIN.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/NE.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/NYG.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/NYJ.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/OAK.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/PHI.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/PIT.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/SD.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/SEA.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/SF.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/STL.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/TB.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/TEN.png" class="banner-pic">
-            </a>
-            <a href="">
-              <img src="img/WAS.png" class="banner-pic">
-            </a>
-          </div>
-          <div class="row-fluid">
-             <div class="col-md-4 divider-right">.col-md-4</div>
-             <div class="col-md-4 divider-right">.col-md-4</div>
-             <div class="col-md-4 last">.col-md-4</div>
-          </div>
-        </div>
-    </footer>
+
    <!-- ANGULAR DYNAMIC CONTENT -->
    <footer class="footer">
       <div class="container-fluid">
@@ -273,6 +170,13 @@
          </div>
       </div>
         </footer>
+  <div ng-repeat="state in output" id="bodycontent">
+        <ul>
+    <li ng-repeat="state in output">
+      {{output.state}} - <em>{{output.hometeam}}</em> - {{output.homescore}} - <em>{{output.awayteam}}</em> - {{output.awayscore}}
+    </li>
+  </ul>
+        </div>
 <!-- Javascript
    ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
