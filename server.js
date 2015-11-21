@@ -9,11 +9,12 @@ var CronJob        = require('cron').CronJob;
 var request        = require('request');
 var cheerio        = require('cheerio');
 var fs             = require('fs');
-var scraper        = require('./app/tasks/nfl_scraper')
-//run every fifteen minutes
+var scraper        = require('./app/tasks/nfl_scraper');
+var mailer		   = require('nodemailer');
+
+//run every seven minutes
 var myJob = new CronJob('0 */7 * * * *', function(){
   scraper.runScraper();
-  //console.log("HI! I RAN!");
 });
 myJob.start();
 

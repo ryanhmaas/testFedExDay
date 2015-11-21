@@ -51,7 +51,7 @@ body {
     position: relative;
     background: #000 url("http://i.imgur.com/llQBddl.png?1") center center;
     width: 100%;
-    height: 375px;
+    height: f75px;
     background-size: cover;
     overflow: hidden;
     border-color: #90CAF9;
@@ -151,7 +151,7 @@ a.nav-expander {
     display: block;
     font-size: 15px;
     font-weight: 400;
-    height: 50px;
+    height: 60px;
     margin-left: 0;
     padding: 1em 1.6em 2em;
     position: absolute;
@@ -203,9 +203,7 @@ a.nav-expander.fixed {
 .last {
     text-align: center;
 }
-.footer .container-fluid .row-fluid a {
-    padding: 15px 15px 1px 0px;
-}
+
 .banner-pic {
     width: 32px;
     height: 32px;
@@ -219,7 +217,7 @@ a.nav-expander.fixed {
 	font-weight:bold;
 }
 .banner {
-    height: 250px;
+    height: 150px;
     border-style:inset;
     border-width: 2px;
 }
@@ -259,4 +257,14 @@ a.nav-expander.fixed {
   filter: grayscale(100%);
   filter: url(grayscale.svg); /* Firefox 4+ */
   filter: gray; /* IE 6-9 */;
+}
+
+.footer-pic{
+    width:3.125%;
+}
+
+@media(max-width: 800px){
+    .footer-pic{
+        display:none;
+    }
 }
