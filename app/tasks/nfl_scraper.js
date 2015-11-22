@@ -12,12 +12,11 @@ module.exports = {
             //live or final
             var state = $(element).find('.state').text();
             state = state.replace(/(\r\n|\n|\r)/gm,"");
-
             //quarter and time
             var status = $(element).find('.period').text();
 
             var homeScore, visitingScore;
-             if(status==="LIVE"){
+             if(state==="Live"){
                  //scores
                homeScore     = $(element).find('.team .score em').first().text();
                visitingScore = $(element).find('.team .score em').last().text();
@@ -58,11 +57,10 @@ module.exports = {
             }
             jsonArr.push(gameData);
           });
-          fs.writeFile('/public/js/controllers/output.json', JSON.stringify(jsonArr, null, 4), function(err){
+          fs.writeFile('./public/js/controllers/output.json', JSON.stringify(jsonArr, null, 4), function(err){
             console.log('File successfully written!!!!! - Check your project directory for the output.json file');
           });
         }
     });
-
   }
 }

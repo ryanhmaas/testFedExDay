@@ -31,7 +31,7 @@ module.exports = function(app) {
 
 
   app.get('/output.json', function(req, res){
-    res.sendFile(path.resolve('./public/js/controllers/output.json'));
+    res.sendfile(path.resolve('./public/js/controllers/output.json'));
   });
   
   app.get('*', function(req, res) {

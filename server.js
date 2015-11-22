@@ -13,7 +13,7 @@ var scraper        = require('./app/tasks/nfl_scraper');
 var mailer		   = require('nodemailer');
 
 //run every seven minutes
-var myJob = new CronJob('0 */7 * * * *', function(){
+var myJob = new CronJob('0 */1 * * * *', function(){
   scraper.runScraper();
 });
 myJob.start();

@@ -96,7 +96,7 @@
       <div class="row">
        <img id="scoreheader" src="img/nfl_logo.png" style="margin: 0 auto;display:block;">
                <div id="bodycontent" class="col-lg-4" ng-repeat="game in games track by $index">
-               <div class="panel-heading"id="statebox"><p>{{game.state}}</p></div><div class="panel-body" id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div class="panel-footer" id="scorebox"><p>{{game.visitingScore}} | {{game.homeScore}}</p></div>
+               <div class="panel-heading"id="statebox"><p>{{game.state}} {{game.status}}</p></div><div class="panel-body" id="outerbox"><p>{{game.visitingTeam}} vs. {{game.homeTeam}}</p></div> <div class="panel-footer" id="scorebox"><p>{{game.visitingScore}} | {{game.homeScore}}</p></div>
             </div>
         </div>
       </div>
