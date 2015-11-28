@@ -1,114 +1,130 @@
 [
     {
-        "state": "          Live        ",
-        "status": "10:07 4th",
-        "homeTeam": "IND",
-        "homeScore": "TD 21",
-        "visitingTeam": "ATL",
-        "visitingScore": "21"
-    },
-    {
-        "state": "          Live        ",
-        "status": "6:41 4th",
-        "homeTeam": "DEN",
-        "homeScore": "17",
-        "visitingTeam": "CHI",
-        "visitingScore": "9"
-    },
-    {
-        "state": "          Live        ",
-        "status": "8:51 4th",
-        "homeTeam": "OAK",
-        "homeScore": "13",
-        "visitingTeam": "DET",
-        "visitingScore": "16"
-    },
-    {
-        "state": "          Live        ",
-        "status": "10:04 4th",
-        "homeTeam": "DAL",
-        "homeScore": "RZ 21",
-        "visitingTeam": "MIA",
-        "visitingScore": "14"
-    },
-    {
-        "state": "          Live        ",
-        "status": "12:03 4th",
-        "homeTeam": "TB",
-        "homeScore": "FG 38",
-        "visitingTeam": "PHI",
-        "visitingScore": "14"
-    },
-    {
-        "state": "          Live        ",
-        "status": "15:00 4th",
-        "homeTeam": "WAS",
+        "state": "          Final        ",
+        "status": "",
+        "homeTeam": "PHI",
         "homeScore": "14",
-        "visitingTeam": "CAR",
-        "visitingScore": "41"
-    },
-    {
-        "state": "          Live        ",
-        "status": "15:00 4th",
-        "homeTeam": "STL",
-        "homeScore": "13",
-        "visitingTeam": "BAL",
-        "visitingScore": "3"
-    },
-    {
-        "state": "          Live        ",
-        "status": "12:10 4th",
-        "homeTeam": "NYJ",
-        "homeScore": "10",
-        "visitingTeam": "HOU",
-        "visitingScore": "24"
+        "visitingTeam": "DET",
+        "visitingScore": "45"
     },
     {
         "state": "          Final        ",
         "status": "",
-        "homeTeam": "TEN",
-        "homeScore": "13",
+        "homeTeam": "CAR",
+        "homeScore": "33",
+        "visitingTeam": "DAL",
+        "visitingScore": "14"
+    },
+    {
+        "state": "          Final        ",
+        "status": "",
+        "homeTeam": "CHI",
+        "homeScore": "17",
+        "visitingTeam": "GB",
+        "visitingScore": "13"
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "MIN",
+        "homeScore": "",
+        "visitingTeam": "ATL",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "STL",
+        "homeScore": "",
+        "visitingTeam": "CIN",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "OAK",
+        "homeScore": "",
+        "visitingTeam": "TEN",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "TB",
+        "homeScore": "",
+        "visitingTeam": "IND",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "BUF",
+        "homeScore": "",
+        "visitingTeam": "KC",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "MIA",
+        "homeScore": "",
+        "visitingTeam": "NYJ",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "NYG",
+        "homeScore": "",
+        "visitingTeam": "WAS",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 1:00 PM        ",
+        "status": "",
+        "homeTeam": "SD",
+        "homeScore": "",
         "visitingTeam": "JAX",
-        "visitingScore": "19"
-    },
-    {
-        "state": "          4:05 PM        ",
-        "status": "",
-        "homeTeam": "KC",
-        "homeScore": "",
-        "visitingTeam": "SD",
         "visitingScore": ""
     },
     {
-        "state": "          4:25 PM        ",
+        "state": "          Sun 1:00 PM        ",
         "status": "",
-        "homeTeam": "GB",
+        "homeTeam": "NO",
         "homeScore": "",
-        "visitingTeam": "MIN",
+        "visitingTeam": "HOU",
         "visitingScore": ""
     },
     {
-        "state": "          4:25 PM        ",
+        "state": "          Sun 4:05 PM        ",
         "status": "",
-        "homeTeam": "SF",
+        "homeTeam": "ARI",
+        "homeScore": "",
+        "visitingTeam": "SF",
+        "visitingScore": ""
+    },
+    {
+        "state": "          Sun 4:25 PM        ",
+        "status": "",
+        "homeTeam": "PIT",
         "homeScore": "",
         "visitingTeam": "SEA",
         "visitingScore": ""
     },
     {
-        "state": "          8:30 PM        ",
+        "state": "          Sun 8:30 PM        ",
         "status": "",
-        "homeTeam": "CIN",
+        "homeTeam": "NE",
         "homeScore": "",
-        "visitingTeam": "ARI",
+        "visitingTeam": "DEN",
         "visitingScore": ""
     },
     {
         "state": "          Mon 8:30 PM        ",
         "status": "",
-        "homeTeam": "BUF",
+        "homeTeam": "BAL",
         "homeScore": "",
-        "visitingTeam": "NE",
+        "visitingTeam": "CLE",
         "visitingScore": ""
     }
 ]

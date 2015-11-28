@@ -12,11 +12,8 @@ var fs             = require('fs');
 var scraper        = require('./app/tasks/nfl_scraper');
 var mailer		   = require('nodemailer');
 
-//run every seven minutes
-var myJob = new CronJob('0 */1 * * * *', function(){
-  scraper.runScraper();
-});
-myJob.start();
+
+scraper.runScraper();
 
 // configuration ===========================================
 
